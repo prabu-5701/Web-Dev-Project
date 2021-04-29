@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: salmon;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+.nav li a:hover{
+    background-color: rgb(226, 85, 85);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(71, 184, 71);
+    padding: 10px;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(43, 226, 43);
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.05);
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.main{
+    width: 100%;
+}
+.nav img{
+    height: 85px;
+}
+.content{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 50%;
+    right: 50%;
+    margin: 0% 5%;
+    margin-top: 150px;
+}
+.content img{
+    width: 700px;
+    height: 450px;
+    border: 2px inset gray;
+    border-radius: 10px;
+}
+.text{
+    width: 500px;
+}
+.content h1{
+    font-size: 4em;
+    text-align: center;
+    border-bottom: 1px dotted red;
+}
+.content h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+.content p{
+    color: rgb(109, 98, 98);
+
+}
+.content a{
+    width: 150px;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(221, 147, 147);
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 5px 10px 30px rgba(192, 61, 61, 0.05);
+    margin-left: 35%;
+}
+.content a:hover{
+    background-color: rgb(201, 111, 111);
+    font-weight: bold;
+}
